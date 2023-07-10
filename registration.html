@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<h1>Race Registration!</h1>
+<form action="/submit">
+    <lable for="First name">First name</lable>
+    <input type="text" id="First name">
+    <lable for="Last name">Last name</lable>
+    <input type="text" id="Last name">
+    <p>Select a race:</p>
+    <p>
+        <input type="radio" id="Full run 5k" name="race">
+        <lable for="Full run 5k">Full run 5k</lable>
+        <br>
+        <input type="radio" id="Full marathon" name="race" value="full">
+        <lable for="Full marathon">Full marathon</lable>
+        <br>
+        <input type="radio" id="Half marathon" name="race" value="half">
+        <lable for="Half marathon">Half marathon</lable>
+        <br>
+    </p>
+    <div>
+        <lable for="email">Email</lable>
+        <input type="email" id="email" name="email">
+        <lable for="password">Password</lable>
+        <input type="password" id="password" name="password">
+    </div>
+    <div>
+        <lable for="division">select any group?</lable>
+        <select name="division" id="division">
+            <option value="kids">under 12</option>
+            <option value="teenage">12-20</option>
+            <option value="adults">21-35</option>
+        </select>
+    </div>
+    <button>Register</button>
+
+</form>
+
+</html>
